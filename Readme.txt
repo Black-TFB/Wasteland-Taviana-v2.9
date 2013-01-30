@@ -1,4 +1,4 @@
-Wasteland Taviana v2.8a by SGT Black of Task Force Blackjack (www.tf-blackjack.com)
+Wasteland Taviana v2.9 by SGT Black of Task Force Blackjack (www.tf-blackjack.com)
 
 
 Thanks to 404 Games & Tonic for making this a great mission.
