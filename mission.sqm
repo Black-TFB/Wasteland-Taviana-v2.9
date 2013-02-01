@@ -8850,7 +8850,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=12;
+		items=13;
 		class Item0
 		{
 			position[]={11249.695,120.22714,15656.398};
@@ -9027,6 +9027,23 @@ class Mission
 			age="UNKNOWN";
 			expCond="true";
 			expActiv="{_x allowDamage false} forEach nearestObjects [thisTrigger,[""House"",""Strategic""],triggerArea thisTrigger select 0];";
+			class Effects
+			{
+			};
+		};
+		class Item12
+		{
+			position[]={5148.8774,0.47983944,5149.2632};
+			a=100;
+			b=100;
+			rectangular=1;
+			activationBy="ANY";
+			activationType="NOT PRESENT";
+			interruptable=1;
+			age="UNKNOWN";
+			name="bang";
+			expCond="time > 360";
+			expActiv="{deleteCollection _x} forEach nearestObjects [bang, [], 100] ";
 			class Effects
 			{
 			};
